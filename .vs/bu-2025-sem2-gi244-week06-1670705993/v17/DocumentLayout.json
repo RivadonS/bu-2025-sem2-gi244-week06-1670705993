@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\1670705993\\Gi244\\Github\\Week6\\bu-2025-sem2-gi244-week06-1670705993\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6B8012A9-82E0-05F1-9A88-995FED49502A}|Assembly-CSharp.csproj|d:\\1670705993\\gi244\\github\\week6\\bu-2025-sem2-gi244-week06-1670705993\\assets\\scripts\\exam\\cameracontrolexam06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8012A9-82E0-05F1-9A88-995FED49502A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exam\\cameracontrolexam06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B8012A9-82E0-05F1-9A88-995FED49502A}|Assembly-CSharp.csproj|d:\\1670705993\\gi244\\github\\week6\\bu-2025-sem2-gi244-week06-1670705993\\assets\\scripts\\exam\\wavespawnmanagerexam04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B8012A9-82E0-05F1-9A88-995FED49502A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exam\\wavespawnmanagerexam04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8012A9-82E0-05F1-9A88-995FED49502A}|Assembly-CSharp.csproj|d:\\1670705993\\gi244\\github\\week6\\bu-2025-sem2-gi244-week06-1670705993\\assets\\scripts\\exam\\playercontrollerexam03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B8012A9-82E0-05F1-9A88-995FED49502A}|Assembly-CSharp.csproj|d:\\1670705993\\gi244\\github\\week6\\bu-2025-sem2-gi244-week06-1670705993\\assets\\scripts\\exam\\playercontrollerexam05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B8012A9-82E0-05F1-9A88-995FED49502A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exam\\playercontrollerexam05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B8012A9-82E0-05F1-9A88-995FED49502A}|Assembly-CSharp.csproj|D:\\1670705993\\Gi244\\Github\\Week6\\bu-2025-sem2-gi244-week06-1670705993\\assets\\scripts\\exam\\playercontrollerexam03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B8012A9-82E0-05F1-9A88-995FED49502A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exam\\playercontrollerexam03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,19 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CameraControlExam06.cs",
+              "DocumentMoniker": "D:\\1670705993\\Gi244\\Github\\Week6\\bu-2025-sem2-gi244-week06-1670705993\\Assets\\Scripts\\Exam\\CameraControlExam06.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Exam\\CameraControlExam06.cs",
+              "ToolTip": "D:\\1670705993\\Gi244\\Github\\Week6\\bu-2025-sem2-gi244-week06-1670705993\\Assets\\Scripts\\Exam\\CameraControlExam06.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Exam\\CameraControlExam06.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T09:44:21.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerControllerExam05.cs",
+              "DocumentMoniker": "D:\\1670705993\\Gi244\\Github\\Week6\\bu-2025-sem2-gi244-week06-1670705993\\Assets\\Scripts\\Exam\\PlayerControllerExam05.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Exam\\PlayerControllerExam05.cs",
+              "ToolTip": "D:\\1670705993\\Gi244\\Github\\Week6\\bu-2025-sem2-gi244-week06-1670705993\\Assets\\Scripts\\Exam\\PlayerControllerExam05.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Exam\\PlayerControllerExam05.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T09:30:54.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WaveSpawnManagerExam04.cs",
               "DocumentMoniker": "D:\\1670705993\\Gi244\\Github\\Week6\\bu-2025-sem2-gi244-week06-1670705993\\Assets\\Scripts\\Exam\\WaveSpawnManagerExam04.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Exam\\WaveSpawnManagerExam04.cs",
               "ToolTip": "D:\\1670705993\\Gi244\\Github\\Week6\\bu-2025-sem2-gi244-week06-1670705993\\Assets\\Scripts\\Exam\\WaveSpawnManagerExam04.cs",
               "RelativeToolTip": "Assets\\Scripts\\Exam\\WaveSpawnManagerExam04.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T09:05:03.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PlayerControllerExam03.cs",
               "DocumentMoniker": "D:\\1670705993\\Gi244\\Github\\Week6\\bu-2025-sem2-gi244-week06-1670705993\\Assets\\Scripts\\Exam\\PlayerControllerExam03.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Exam\\PlayerControllerExam03.cs",
@@ -43,8 +77,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Exam\\PlayerControllerExam03.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwC8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T09:01:28.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T09:01:28.636Z"
             }
           ]
         }
