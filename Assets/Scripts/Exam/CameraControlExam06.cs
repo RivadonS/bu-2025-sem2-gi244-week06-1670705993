@@ -2,17 +2,33 @@ using UnityEngine;
 
 public class CameraControlExam06 : MonoBehaviour
 {
-    public GameObject player1;
-    public GameObject player2;
-    public float offset;
+    public Transform player1;
+    public Transform player2;
     public Camera targetCamera;
 
-    // Update is called once per frame
+    [Header("Camera Settings")]
+    public float minSize = 5f;
+    public float zoomFactor = 1.5f;
+    public Vector3 offset = new Vector3(0, 10, 0);
+
     void LateUpdate()
     {
-        Vector3 player1Pos = player1.transform.position;
-        Vector3 player2Pos = player2.transform.position;
+        if (player1 == null || player2 == null || targetCamera == null) return;
 
-        // Student code ...
+        Move();
+        Zoom();
+    }
+
+    void Move()
+    {
+        Vector3 midpoint = (player1.position + player2.position) / 2f;
+        transform.position = midpoint + offset;
+    }
+
+    void Zoom()
+    {
+
+        float distance = Vector3.Distance(player1.position, player2.position);
+        targetCamera.orthographicSize = minSize + (distance / zoomFactor);
     }
 }
