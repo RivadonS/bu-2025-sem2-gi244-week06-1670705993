@@ -17,23 +17,30 @@ public class WaveSpawnManagerExam04 : MonoBehaviour
 
     void Update()
     {
-        if (currentWave >= waveConfigurations.Length)
-        {
-            return;
-        }
 
         if (Time.time >= waveEndTime && waveController.IsComplete())
         {
             currentWave++;
+
+
             if (currentWave >= waveConfigurations.Length)
             {
-                Debug.Log("All waves completed!");
+                if (enableWaveCycling)
+                {
+
+                    currentWave = 0;
+                }
+                else
+                {
+
+                    Debug.Log("All waves completed!");
+                    return;
+                }
             }
-            else
-            {
-                waveController.StartWave(waveConfigurations[currentWave]);
-                waveEndTime = Time.time + waveConfigurations[currentWave].waveInterval;
-            }
+
+
+            waveController.StartWave(waveConfigurations[currentWave]);
+            waveEndTime = Time.time + waveConfigurations[currentWave].waveInterval;
         }
     }
 }
